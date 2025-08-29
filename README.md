@@ -67,3 +67,8 @@ export default tseslint.config([
   },
 ])
 ```
+
+## Deployment
+
+This project is automatically deployed to Yandex Object Storage on every push to the `main` branch.
+The deployment workflow is defined in `.github/workflows/deploy.yml`.
